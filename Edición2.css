@@ -1,0 +1,42 @@
+html, body{
+
+    height: 100%; /* Altura del 100% */
+}
+
+header{
+    display:block; /* Se genera un cuadro de elemento de bloque. */
+    background: #2869f0; /* Fondo azul */
+    padding: 10px 0px; /* Contorno de 10 pixeles arriba y 0 pixeles abajo */
+}
+section{
+    width: 79%; /* Ancho 79% */
+    background: #CCC; /* Fondo blanco */
+    float: left; /* Un elemento flota a la izquierda */ 
+    overflow: auto; /* Desaparece si hay muchos datos */
+    padding-bottom: 60px; /* Marco de la parte de abajo de 60 pixeles */
+    padding-top: 30px; /* Margen arriba de 30 piexeles .*/
+}
+
+aside{
+    float: left; /*UN elemento flota a la izquierda */
+    border: 1px solid red; /* Borde de 1 pixel y rojo solido */
+    width: 19%; /* Ancho 19% */
+    border: 1px solid red; /* Borde de 1 pixel y rojo solido */
+}
+
+footer{
+    position: relative; /* Mediante un valor podemos posicionar un elemento. */
+    margin-top: 50px; /*  */
+    height: 40px; /* Altura de 40 pixeles */
+    padding: 5px 8px; /* Comentario */
+    clear: both; /* Indica que un elemento es movido hacia abajo. */
+    background: #2869f0; /* Fondo azul */ 
+
+    
+    text-align: center; /* Texto alineado */
+    color: #fff; /* Color blanc.o */
+}
+figure{
+    display: table; /* Define un cuadro de elementos. */
+    margin: auto; /* Margen automatico. */
+}
